@@ -1,0 +1,3 @@
+project=enterprise
+test=rspec
+template=erb
