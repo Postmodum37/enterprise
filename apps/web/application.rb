@@ -288,12 +288,12 @@ module Web
         # Don't compile static assets in production mode (eg. Sass, ES6)
         #
         # See: http://www.rubydoc.info/gems/hanami-assets#Configuration
-        # compile false
+        compile false
 
         # Use fingerprint file name for asset paths
         #
         # See: https://guides.hanamirb.org/assets/overview
-        # fingerprint true
+        fingerprint true
 
         # Content Delivery Network (CDN)
         #
