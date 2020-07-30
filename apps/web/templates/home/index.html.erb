@@ -97,7 +97,8 @@
                 </div>
               </div>
               <div class="arsenal__stats col-12 col-md-8">
-                <div class="arsenal__image"><img src="./images/homepage/3d-visualization.png" srcset="./images/homepage/3d-visualization@2x.png 2x" alt="With CGTrader ARsenal you offer your customers 3D visualization with 360 product view and augmented reality."/>
+                <div class="arsenal__image">
+                  <%= image '3d-visualization.png', alt: 'With CGTrader ARsenal you offer your customers 3D visualization with 360 product view and augmented reality.' %>
                 </div>
                 <div class="arsenal__stat-list">
                   <div class="arsenal__stat">
@@ -470,7 +471,12 @@
     <footer class="footer cgt-back-color-ui-800">
       <div class="container-fixed">
         <div class="footer__wrap row">
-          <div class="footer__logo col-8 col-md-auto"><a class="logo" href="/" title=""><span class="logo__image"><img src="./images/global/logo-dark.png" srcset="./images/global/logo-dark@2x.png 2x" alt="Logo cgtrader enterprise"/></span></a>
+          <div class="footer__logo col-8 col-md-auto">
+            <a class="logo" href="/" title="">
+              <span class="logo__image">
+                <%= image 'logo-dark.png', alt: 'Logo cgtrader enterprise' %>
+              </span>
+            </a>
           </div>
           <div class="footer__nav col-12">
             <div class="footer__nav-row row">
